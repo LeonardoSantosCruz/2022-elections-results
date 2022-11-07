@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Poppins-regular;
+    src: url('../Fonts/Poppins-Regular.ttf');
+}
+
+* {
+    font-family: Poppins-regular;
+    color: white;
+}
+
+*{
+    padding: 5px;
+}
+
+body{
+    background-color: #e6ecf0;
+    margin: 0;
+    padding: 0;
+}
+
+.data {
+    position: relative;
+    padding: 2px;
+    border: solid 1px black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 5px;
+    /* background: radial-gradient(circle, #1c3966c0 0%, #1c3966c0 49%, #1b305aea 100%); */
+    
+}
+header{
+    color: white;
+    font-weight: 900;
+    border: solid 1px rgb(255, 255, 255);
+    box-shadow: inset 3px 3px 3px 0px rgba(196,191,214,0.526);
+    border-radius: 5px;
+    text-align: center;
+    height: 10%;
+    width: 25%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.img{
+    min-width: 100px;
+    min-height: 100px;
+    width: 200px;
+    height: 200px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 10px 13px 10px 0px rgba(196,191,214,0.526);
+    background-size: cover;
+    background-position: center;
+    
+}
+.lesserImg{
+    min-width: 40px;
+    min-height: 40px;
+    width: 80px;
+    height: 80px;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 10px 13px 10px 0px rgba(196,191,214,0.526);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    
+}
+.partido{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px rgba(255, 255, 255, 0.505);
+    border-radius: 5px;
+    box-shadow: inset 3px 3px 3px 0px rgba(196,191,214,0.526);
+    text-align: center;
+    word-wrap: break-word;
+    width: fit-content;
+    height: fit-content;
+    background: none;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    
+}
+.numPartido{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px rgba(255, 255, 255, 0.505);
+    border-radius: 5px;
+    box-shadow: inset 3px 3px 3px 0px rgba(196,191,214,0.526);
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    background: none;
+}
+
+.selectPol{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Botão transparente*/
+/* .button {
+    background: none;
+    border: solid 1px white;
+    box-shadow:  3px 1px 1px 0px rgba(196,191,214,0.526);
+    border-radius: 5px;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    word-wrap: break-word;
+    cursor: pointer;
+    margin-left: 6px;
+} */
+
+
+.button{
+    background-color: #e6ecf0;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}

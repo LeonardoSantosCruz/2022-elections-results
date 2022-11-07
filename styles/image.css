@@ -1,0 +1,66 @@
+#image1{
+    background-image: url("../image/Bolsonaro.png");
+}
+
+#image1_1{
+    background-image: url("../image/Bolsonaro.png");
+    opacity: 0.7;
+}
+
+#image2{
+    background-image: url("../image/lula.png");
+}
+
+#image2_1{
+    background-image: url("../image/lula.png");
+    opacity: 0.7;
+}
+
+#image3{
+    background-image: url("../image/ciro.png");
+}
+
+#image3_1{
+    background-image: url("../image/ciro.png");
+    opacity: 0.7;
+}
+
+#image4{
+    background-image: url("../image/simone.png");
+}
+
+#image4_1{
+    background-image: url("../image/simone.png");
+    opacity: 0.7;
+}
+
+#image5{
+    background-image: url("../image/padre.png");
+}
+
+#image5_1{
+    background-image: url("../image/padre.png");
+    opacity: 0.7;
+}
+
+#lula{
+    background-image: url("../image/lula.png");
+    
+}
+
+#Bolsonaro {
+    background-image: url("../image/Bolsonaro.png");
+    
+}
+
+#ciro {
+    background-image: url("../image/ciro.png");
+}
+
+#simone {
+    background-image: url("../image/simone.png");
+}
+
+#padre {
+    background-image: url("../image/padre.png");
+}

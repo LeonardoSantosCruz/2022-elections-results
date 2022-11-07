@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canditato</title>
+    <script defer src="./Js/newfunctions.js"></script>
+    <link rel="stylesheet" href="styles/candidato.css">
+    <link rel="stylesheet" href="./styles/image.css">
+</head>
+
+<body onload="pageStart()">
+    <main>
+        <section class="data" id="data">
+            <header class="nomePresidente" id="nameCandidate"></header>
+            <div class="img canditato" id="img"></div>
+            <div class="partido" id="polParty"></div>
+            <div class="numPartido" id="polPartyNum"></div>
+            <section class="selectPol">
+                <div id="lula" class="lesserImg" onclick="callPresident(0)"></div>
+                <div id="Bolsonaro" class="lesserImg" onclick="callPresident(1)"></div>
+                <div id="ciro" class="lesserImg" onclick="callPresident(2)"></div>
+                <div id="simone" class="lesserImg" onclick="callPresident(3)"></div>
+                <div id="padre" class="lesserImg" onclick="callPresident(4)"></div>
+            </section>
+
+            <footer>
+                <button class="button button_1">
+                    <a id="a1" href="./index.html">Pagina inicial</a>
+                </button>
+                <button class="button button_2" >
+                    <a href="./resultado.html">Resultado</a>
+                </button>
+            </footer>
+        </section>
+
+    </main>
+</body>
+
+</html>
